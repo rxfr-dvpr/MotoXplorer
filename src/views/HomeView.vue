@@ -1,9 +1,22 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+<template>
+ <h1>Soon MotoXplorer...</h1>
+</template>
+
+<script>
+
+export default {
+    name: 'Home'
+}
+
 </script>
 
-<template>
-  <main>
-    <TheWelcome />
-  </main>
-</template>
+<style lang="scss" scoped>
+
+h1 {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+</style>
