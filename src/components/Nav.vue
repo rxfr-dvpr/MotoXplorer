@@ -46,6 +46,9 @@ export default {
 .nav {
     width: 100%;
     background: var(--main-black);
+    position: fixed;
+    top: 0;
+    left: 0;
 
     .row {
         justify-content: space-between;
