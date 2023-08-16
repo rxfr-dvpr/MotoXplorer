@@ -17,6 +17,7 @@ h1 {
     display: grid;
     place-items: center;
     text-align: center;
+    color: var(--main-blue);
 }
 
 </style>
