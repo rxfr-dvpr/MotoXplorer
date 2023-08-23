@@ -1,23 +1,19 @@
 <template>
- <h1>Soon MotoXplorer...</h1>
+ <Header/>
 </template>
 
 <script>
+import Header from '@/components/Header.vue'
 
 export default {
-    name: 'Home'
+    name: 'Home',
+    components: {
+        Header
+    }
 }
 
 </script>
 
 <style lang="scss" scoped>
-
-h1 {
-    height: 100vh;
-    display: grid;
-    place-items: center;
-    text-align: center;
-    color: var(--main-blue);
-}
 
 </style>
